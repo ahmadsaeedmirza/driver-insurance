@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.all {
+    background-color: lightgray;
+    margin: auto;
+    width: 30%;
+    padding: 5%;
+    border-radius: 5%;
+}
+
+button {
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    padding: 5px 15px;
+    margin-left: 70%;
+    border-radius: 10%;
+}
+
+button:hover { 
+    background-color: black;
+    color: white;
+    border: solid black;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .all {
+      width: 60%;
+    }
+  }
